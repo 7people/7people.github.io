@@ -1,9 +1,23 @@
 #first{
   border:10px solid white;
 }
+a.nav-link:hover{
+  background-color: rgba(209, 59, 144, 0.5);
+  border-radius: 5px;
+}
 #myCarousel{
   border-top:10px solid white;
   background-color:#d13b90 ;
+  max-height:50%; max-width: 100%;
+}
+svg #marketing{
+  max-height: 100%;
+  align-content: flex-start;
+  position: fixed;
+  left:0;
+}
+p.myCarousel{
+  max-width:100%;
 }
 #firstButton{
 background-color: #f7bd0f ;
@@ -18,6 +32,7 @@ color:#d13b90
   color: #d13b90;
   border:1px solid #d13b90;
 }
+#thirdB:hover{  background-color: rgba(209, 59, 144, 0.5); }
 .mumu{
   color: #d13b90;
 }
