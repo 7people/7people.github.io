@@ -1,48 +1,106 @@
-#first{
-  border:10px solid white;
+#carouselExampleCaptions{
+  width: 100%;
+  height: 50%;
 }
-a.nav-link:hover{
-  background-color: rgba(209, 59, 144, 0.5);
-  border-radius: 5px;
+
+footer{
+  background-color:#852880;
+  margin-top: 20px;
 }
-#myCarousel{
-  border-top:10px solid white;
-  background-color:#d13b90 ;
-  max-height:50%; max-width: 100%;
+#footerText{color:white;}
+
+.carousel-item{
+  width:100%;
+  height:50%;
 }
-svg #marketing{
-  max-height: 100%;
-  align-content: flex-start;
-  position: fixed;
-  left:0;
+.card{
+  margin:10px;
 }
-p.myCarousel{
-  max-width:100%;
+#mental,.jumbotron
+{
+  background-color:#852880;
+  color:white;
 }
-#firstButton{
-background-color: #f7bd0f ;
-border:2px solid #f7bd0f ;
+.flagship{
+  color: #c7ad48;
+  font-size: 10em;
+  text-align: center;
 }
-#firstB{
-background-color: #f7bd0f ;
-border:4px solid #f7bd0f ;
-color:#d13b90
+p.flagship{
+  position: relative;
+  left:200px;
 }
-#thirdB{
-  color: #d13b90;
-  border:1px solid #d13b90;
+#footerAnchor{
+  color: #c7ad48;
+  width:100%;
+  text-align: center;
 }
-#thirdB:hover{  background-color: rgba(209, 59, 144, 0.5); }
-.mumu{
-  color: #d13b90;
+#footerAnchor:hover{
+  color: #c7ad48;
+  text-decoration:none;
+  text-shadow: 2px 2px 2px black;
 }
-#gridHeaders
-{color:#d13b90; }
-#gridTexts{color: ;}
-#gridButtons{
-  color: #d13b90;
-  background-color:white;
-border: 1px solid #f7bd0f;
- }
- #about{color:#d13b90;}
- #mental{background-color:white; }
+.footerText{margin-top: 20px;}
+a.footerText{color:#c7ad48}
+#card-button{
+color:#852880;background-color:white;border:2px solid #852880; box-shadow: 2px 2px 3px purple; padding:10px 20px 10px 20px; border-radius:20px;
+}
+#card-button:hover{ padding:10px 25px 10px 25px; box-shadow:2px 2px 5px black; background-color:;border-color:#c7ad48; }
+
+#jumbotron-button:hover{padding:10px 50px 10px 50px; box-shadow:2px 2px 5px black; background-color:#852880;border-color:white;}
+
+#flag-button:hover{text-decoration: none; box-shadow:2px 2px 5px black;color:white; background-color:#852880;border-color:#852880; }
+
+#ai-card-group, #card{
+  border:2px solid #c7ad48;
+  box-shadow: 1px 1px 5px black;
+  min-height:650px;
+}
+#ai-card-groupTitle, #card-title,#grid-cardTitle{
+  font-family: times;
+  color: #852880;
+  text-align:center;
+}
+#card-text,#grid-cardText{
+  margin-top: 20px;
+}
+#cloud-card,#ai-card{margin:0px;border-radius: 0px;}
+#cloud-card-img{
+  max-height:500px;
+}
+#ai-card-groupTitle{
+  font-size:2em;
+  width:100%;
+  /* border: 1px solid purple; */
+}
+#cloud-list{
+  margin:100px;
+}
+#cloud-media{margin-bottom:100px;}
+#cloud-mediaImg{
+  margin-right:x; max-width:500px; max-height: 500px;
+  border-radius: 40px; box-shadow: 1px 1px 20px #c7ad48;
+}
+#cloud-mediaText{margin-top:40px;width: }
+
+#purchase-grid-card{
+  margin: 5%;
+}
+
+#grid-card{
+  border:2px solid #c7ad48;
+  box-shadow: 1px 1px 5px #852880;
+  border-radius:5px;
+
+  min-height: 700px; max-width:400px;
+}
+#grid-cardImg{
+  max-height: 400px; max-width:400px;
+}
+#form-container{
+  /* margin: 10% 5% 5% 10%; */
+  border:2px solid #c7ad48;
+  min-width:;
+  border-radius:20px;box-shadow:2px 2px 10px #852880;
+  margin-top:50px; margin-bottom:50px;
+}

@@ -1,0 +1,52 @@
+#first{
+  border:10px solid white;
+}
+a.nav-link:hover{
+  background-color: rgba(133, 40, 128, 0.5);
+  border-radius: 5px;
+}
+#myCarousel{
+  border-top:10px solid white;
+  background-color:#852880;
+  max-height:50%; max-width: 100%;
+}
+svg #marketing{
+  max-height: 100%;
+  align-content: flex-start;
+  position: fixed;
+  left:0;
+}
+h2.col-lg-4{
+  text-align: center;
+}
+p.myCarousel{
+  max-width:100%;
+}
+#firstButton{
+background-color: #c7ad48 ;
+border:2px solid #c7ad48 ;
+}
+#firstB{
+background-color: #c7ad48 ;
+border:4px solid #c7ad48 ;
+color:#852880
+}
+#thirdB{
+  color: #852880;
+  border:1px solid #852880;
+  padding:8px 30px 8px 30px;
+
+}
+#thirdB:hover{ font-size: 20px; font-family: 'Buenard';text-align: center; padding-left:45px;padding-right:45px; border-radius:25px; background-color: rgba(133, 40, 128, 0.5); color:black;}
+.mumu{
+  color: #852880;
+}
+#gridHeaders
+{color:#852880; }
+#gridTexts{color: ;}
+#gridButtons{
+  color: #852880;
+  background-color:white;
+border: 1px solid #c7ad48;
+ }
+ #about{color:#852880;}
